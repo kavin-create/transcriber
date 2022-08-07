@@ -1,0 +1,83 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Video Transcription</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'mainpage/css/styles.css'%}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Video Transcription</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">  
+                    <ul class="navbar-nav ms-auto">      
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="#services">What is S2Text</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Project</a></li>     
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-info bg-gradient text-white">
+            <div class="container px-4 text-center">  
+                <h1 class="fw-bolder">Start here by Transcribing you first video</h1>
+                <p class="lead">Transcription is usually the conversion of speech to text. Here you will be able to download </p>
+                <a class="btn btn-lg btn-light" href="{% url 'page2'%}">Start by uploading a video!</a>
+            </div>  
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>About this page</h2>
+                        <p class="lead">How we use Symbl.AI we transcribe the video</p>
+                        <ul>
+                            <li>Symbl offers state-of-the-art Speech-to-Text capability (also called transcription). </li>
+                            <li>You can convert audio and video conversations into text in real-time or after the conversation has ended.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>What is Speech to Text</h2>
+                        <p class="lead">Speech to text is software that works by listening to audio and delivering an editable, verbatim transcript on a given device. The software does this through voice recognition. A computer program draws on linguistic algorithms to sort auditory signals from spoken words and transfer those signals into text using characters called Unicode. Converting speech to text works through a complex machine learning model that involves several steps. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Our project</h2>
+                        <p class="lead">Can be accessed <a href="github repo">here</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Video Transcription by Kavin S and Pratyush Mohanty 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'mainpage/js/scripts.js'%}"></script>
+    </body>
+</html>
