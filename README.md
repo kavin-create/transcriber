@@ -8,7 +8,7 @@
     `python manage.runserver'
 
 - Homepage
-  ![homepage]('https://github.com/kavin-create/transcriber/blob/master/transcripter/Screenshots/t1.PNG?raw=true')
+  ![homepage]('https://raw.githubusercontent.com/kavin-create/transcriber/master/transcripter/Screenshots/t2.PNG')
 - More info page
   ![moreinfopage]('https://github.com/kavin-create/transcriber/blob/master/transcripter/Screenshots/t2.PNG?raw=true')
 - Video Library
